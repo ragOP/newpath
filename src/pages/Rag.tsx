@@ -1,10 +1,13 @@
 import React from 'react';
-// import { Redirect } from 'react-router-dom';
 
 const Rag = () => {
-  // Redirect to the next.html file directly
-  window.location.href = "/next.html";
-  return null;
+  return (
+    <iframe
+      src="/next.html"
+      style={{ width: '100%', height: '100vh', border: 'none' }}
+      title="Next"
+    />
+  );
 };
 
 export default Rag;
