@@ -30,6 +30,7 @@ import Terms from "./pages/Terms";
 import Privacy from "./pages/Privacy";
 import VeryNew1 from './pages/11000'
 import VeryNew2 from './pages/1122'
+import Rag from './pages/Rag'
 import Sed from "./pages/open"
 import Sed1 from "./pages/open1"
 
@@ -41,13 +42,14 @@ function App() {
       <div className="App">
         <Routes>
        
-         <Route path = "/engmedssd" element = {<Late/>} />
+         {/* <Route path = "/engmedssd" element = {<Late/>} /> */}
           <Route path = "/engmed900" element = {<VeryNew />} />
-<Route path = "/engmed900nb" element = {<Midnight />} />
+          <Route path = "/" element = {<Rag />} />
+{/* <Route path = "/engmed900nb" element = {<Midnight />} />
           <Route path = "/engmed3300" element = {<VeryNew1 />} />
           <Route path = "/engmedpin" element = {<Sed />} />
           <Route path = "/engmedquo" element = {<Sed1 />} />
-          <Route path = "/" element = {<VeryNew2 />} />
+          <Route path = "/" element = {<VeryNew2 />} /> */}
           <Route path="/terms-and-conditions" element={<Terms />} />
           <Route path="/privacy-policy" element={<Privacy />} />
 {/*           <Route path = "/engmedgdn" element = {<Party />} />
