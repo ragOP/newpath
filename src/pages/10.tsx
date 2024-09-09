@@ -410,6 +410,7 @@ export default function Abc() {
         <div className="copyright">
           Copyright © 2024 - All right reserved Daily America Savings.
         </div>
+        <p>G2 Licensed Agent : Jessica Johanna Rodriguez</p>
         {/* <p>{zipCode} </p> */}
       </div>
       <ToastContainer
